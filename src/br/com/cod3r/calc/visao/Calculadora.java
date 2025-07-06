@@ -5,13 +5,12 @@ import java.awt.Dimension;
 
 import javax.swing.JFrame;
 
-@SuppressWarnings("serial")
 public class Calculadora extends JFrame {
 	public Calculadora() {
 		
 		organizarLayout();
 		
-		setSize(232, 324);
+		setSize(233, 319);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		setVisible(true);
